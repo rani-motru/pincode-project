@@ -1,0 +1,19 @@
+body {
+background-image: url("21388.jpg");
+background-size: cover;
+color: rgb(129, 12, 12);
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color:  rgba(54, 43, 172, 0.856);
+  color: white;
+  padding: 10px;
+  font-size: 2em;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  
+}
