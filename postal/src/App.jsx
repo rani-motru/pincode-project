@@ -7,7 +7,7 @@ import Home from './pages/Home';
 import Pincode from './pages/Pincode';
 // import Nasalist from './pages/Nasalist';
 import About from './pages/About';
-
+import Footer from './components/Footer';
 function App() {
  
   return (
@@ -21,6 +21,7 @@ function App() {
         <Route path='/pincode' element={<Pincode/>} />
         <Route path='/about' element={<About/>} />
       </Routes>
+      <Footer/>
 </div>
   )
 }

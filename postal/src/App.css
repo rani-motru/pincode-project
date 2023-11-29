@@ -2,6 +2,8 @@ body {
 background-image: url("59087.jpg");
 background-size: cover;
 color: rgb(129, 12, 12);
+height:100%;
+width:100%;
 }
 .nav {
   display: flex;
@@ -16,4 +18,23 @@ color: rgb(129, 12, 12);
   color: white;
   text-decoration: none;
   
+}
+
+.footer{
+  border-style: bottom;
+  padding: 490px;
+  text-align:center;
+
+}
+.title {
+  font-weight: 700;
+  text-align: center;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.text {
+  margin: 50px 40px 80px 40px;
+  line-height: 2.5rem;
 }
