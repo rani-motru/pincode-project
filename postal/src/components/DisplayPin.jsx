@@ -9,6 +9,7 @@ function DisplayPin({search}) {
       <center>
         <h3> PIN Code: {search[0].PostOffice[0].Pincode}</h3>
        <h3> State: {search[0].PostOffice[0].State}</h3>
+       <h3> Region: {search[0].PostOffice[0].Division}</h3>
        <h3> Country: {search[0].PostOffice[0].Country}</h3>
        </center>
     </div> 
