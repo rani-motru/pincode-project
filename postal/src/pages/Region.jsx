@@ -22,8 +22,8 @@ function Region(props) {
   return (
     <div>
       <center><h3>Select the Region: 
-        <></> <FormReg regSearch={getSearch}/></h3></center>
-      {search ? <regionSearch search ={search}/>: null } 
+      <FormReg getSearch={getSearch}/></h3></center>
+      {search ? <RegionSearch search ={search}/>: "Enter the Region." } 
        
     </div>
   )
