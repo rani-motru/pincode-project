@@ -26,11 +26,13 @@ function Pincode(props) {
 
   return (
     <div>
-      <center><h3>Type the 6 digit Pincode Here:  <Form pinSearch={getSearch}/></h3></center>
-      {search ? <DisplayPin search= {search}/> :"loading"}
+      <center><h3>Type the 6 digit Pincode Here: 
+        <></> <Form pinSearch={getSearch}/></h3></center>
+      <DisplayPin search= {search}/> 
        
     </div>
   )
 }
 
 export default Pincode
+
