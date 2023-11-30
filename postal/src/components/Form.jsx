@@ -20,7 +20,7 @@ function Form(props) {
                 <input 
                     type="text" 
                     name="searchterm"
-                    maxlength={6}
+                    maxLength={6}
                     onChange={handleChange}
                     value={formData.searchterm}
                 />
@@ -32,4 +32,4 @@ function Form(props) {
     )
 }
 
-export default Form
+export default Form;

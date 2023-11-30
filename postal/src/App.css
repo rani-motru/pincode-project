@@ -1,14 +1,15 @@
 body {
-background-image: url("59087.jpg");
+background-image: url("5500476.jpg");
 background-size: cover;
-color: rgb(129, 12, 12);
-height:100%;
-width:100%;
+background-repeat: no-repeat; 
+/* background-position: center; */
+/* color: rgb(129, 12, 12); */
+color: white;
 }
 .nav {
   display: flex;
   justify-content: space-between;
-  background-color:  rgba(54, 43, 172, 0.856);
+  /* background-color:  rgba(54, 43, 172, 0.856); */
   color: white;
   padding: 10px;
   font-size: 2em;
@@ -22,7 +23,7 @@ width:100%;
 
 .footer{
   border-style: bottom;
-  padding: 490px;
+  padding: 420px;
   text-align:center;
 
 }
@@ -36,5 +37,5 @@ width:100%;
 }
 .text {
   margin: 50px 40px 80px 40px;
-  line-height: 2.5rem;
+  line-height: 3rem;
 }
