@@ -17,7 +17,7 @@ function FormReg({getSearch}) {
     return (
         <div>
             <form onSubmit={handleSubmit}>
-                <select onChange={handleSort} value={sortBy} className="select"></select>
+                <select onChange={handleSort} value={sortBy} className="select">
                 <option value="Andaman & Nicobar">Andaman & Nicobar</option>
                 <option value="Andhra Pradesh">Andhra Pradesh</option>
                 <option value="Arunachal Pradesh">Arunachal Pradesh</option>
@@ -54,6 +54,7 @@ function FormReg({getSearch}) {
                 <option value="Uttar Pradesh">Uttar Pradesh</option>
                 <option value="Uttarakhand">Uttarakhand</option>
                 <option value="West Bengal">West Bengal</option>
+                </select>
                 <input type="submit" value="submit" />
 
             </form>
