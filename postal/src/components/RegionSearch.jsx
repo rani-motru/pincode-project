@@ -5,15 +5,22 @@ function RegionSearch({ search }) {
   const office = search.PostOffice;
   console.log(office);
   return (
-    <div>
+    <div><center>
       <h2>The Post office Regions</h2>
       <ul>
         <li>
           {office.map((one, index) => (
-            <div key={index}>{one.Name}</div>
+            <div key={index} className ="result-container">
+               
+               Name: {one.Name},
+               District:{one.District},
+               State:{one.State},
+               Pincode:{one.Pincode}
+               
+                </div>
           ))}
         </li>
-      </ul>
+      </ul></center>
     </div>
   );
 }

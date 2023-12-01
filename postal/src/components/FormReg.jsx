@@ -18,8 +18,10 @@ function FormReg({getSearch}) {
         <div>
             <form onSubmit={handleSubmit}>
                 <select onChange={handleSort} value={sortBy} className="select">
-                <option value="Andaman & Nicobar">Andaman & Nicobar</option>
-                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                <option selected="selected" disabled="disabled" value="">
+                  Select the Region</option>
+                {/* <option value="Andaman & Nicobar">Andaman & Nicobar</option> */}
+                <option value="Andhra">Andhra Pradesh</option>
                 <option value="Arunachal Pradesh">Arunachal Pradesh</option>
                 <option value="Assam">Assam</option>
                 <option value="Bihar">Bihar</option>
@@ -28,6 +30,7 @@ function FormReg({getSearch}) {
                 <option value="Dadra & Nagar Haveli">Dadra & Nagar Haveli</option>
                 <option value="Damann & Diu">Damann & Diu</option>
                 <option value="Delhi">Delhi</option>
+                <option value="East Godavari">East Godavari</option>
                 <option value="Goa">Goa</option>
                 <option value="Gujarat">Gujarat</option>
                 <option value="Haryana">Haryana</option>
@@ -54,6 +57,7 @@ function FormReg({getSearch}) {
                 <option value="Uttar Pradesh">Uttar Pradesh</option>
                 <option value="Uttarakhand">Uttarakhand</option>
                 <option value="West Bengal">West Bengal</option>
+                <option value="West Godavari">West Godavari</option>
                 </select>
                 <input type="submit" value="submit" />
 

@@ -39,3 +39,17 @@ color: white;
   margin: 50px 40px 80px 40px;
   line-height: 3rem;
 }
+
+.result-container {
+  width: 20%;
+  height: auto;
+  text-align: center;
+  background-color: #f6f6f6;
+  color: rgb(2, 25, 75);
+  margin: 5px;
+  padding: 10px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+}
+
