@@ -47,6 +47,9 @@
   # Images
   https://www.freepik.com
 
+  # Live link:
+    https://indian-postal-pincode.netlify.app/
+
  # Wire Frame:
  
 ![Screenshot 2023-11-30 185429](https://github.com/rani-motru/pincode-project/assets/137830826/7d82d131-ac1b-40eb-ae80-746ff09a120b)
