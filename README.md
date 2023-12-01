@@ -45,7 +45,7 @@
     Html,Css,React Js
 
   # Images
-  https://www.freepik.com/free-vector/paper-style-smooth-background_14669593.htm#page=2&query=abstract%20background%20website&position=16&from_view=search&track=ais&uuid=dd46df9d-5abe-40c7-8733-ef648218871d
+  https://www.freepik.com
 
  # Wire Frame:
  
