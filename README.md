@@ -24,6 +24,7 @@
 
  for Region/Branch Name:
   https://api.postalpincode.in/postoffice/{POSTOFFICEBRANCHNAME}
+  
   (I used this to find the number of post offices in states,please note that we cannot find all post offices by the state name because the state name and the Branch name is not same.)
 
   # components:
@@ -44,6 +45,8 @@
     Html,Css,React Js
 
  # Wire Frame:
-
+ 
+![Screenshot 2023-11-30 185429](https://github.com/rani-motru/pincode-project/assets/137830826/7d82d131-ac1b-40eb-ae80-746ff09a120b)
 
 # Flow Chart:
+![Screenshot 2023-11-30 185535](https://github.com/rani-motru/pincode-project/assets/137830826/5ee9e245-ed08-4749-be59-9e57ebce45dc)
